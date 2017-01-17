@@ -5,7 +5,7 @@ description: "A list of resources for making in the Buffalo, NY region"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url: https://davidbrenner.github.io/buffalomakes.com/
+url: http://www.buffalomakes.com
 feed:
   path: atom.xml
 
