@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: Resources
+  url: /resources/
+  excerpt: "Makerspace resources in Buffalo"
+  image: 400x250.gif
+
+- title: About
+  url: /about/
+  excerpt: "All about Skinny Bones for Jekyll."
+  image: 400x250.gif
