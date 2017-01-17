@@ -3,9 +3,9 @@
 - title: Resources
   url: /resources/
   excerpt: "Makerspace resources in Buffalo"
-  image: 400x250.gif
+  image: pushpin-400x250.png
 
 - title: About
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
-  image: 400x250.gif
+  excerpt: "All about this website"
+  image: about-400x250.png
