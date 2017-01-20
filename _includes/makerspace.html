@@ -1,0 +1,38 @@
+<div class="card">
+    <div class="makerspace-image">
+        <img src="{{ site.url }}/images/{{ makerspace.photo }}" alt="">
+    </div>
+    <div class="makerspace-name"> {{makerspace.name}} </div>
+    <div class="makerspace-data">
+        <div class="makerspace-location">
+            {{makerspace.location}}
+        </div>
+        <div class="makerspace-hours">
+            {{makerspace.hours}}
+        </div>
+        <div class="makerspace-cost">
+            {{makerspace.cost}}
+        </div>
+        <div class="makerspace-public">
+            {{makerspace.public}}
+        </div>
+        <div class="makerspace-ages">
+            {{makerspace.ages}}
+        </div>
+        <div class="makerspace-programs">
+            {{makerspace.programs}}
+        </div>
+        <div class="makerspace-contact">
+            {{makerspace.contact-name}}
+        </div>
+    </div>
+    <div class="makerspace-copy">
+        <p>{{makerspace.content}}</p>
+    </div>
+    <div class="makerspace-resources-header"></div>
+    <div class="makerspace-resources">
+        {% for resource in makerspace.resources %}
+            <div class="makerspace-resource">{{resource}}</div>
+        {% endfor %}
+    </div>
+</div><!-- /.card -->
